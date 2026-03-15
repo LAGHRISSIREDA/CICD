@@ -1,0 +1,12 @@
+{
+  "name": "cicd-auto-commit",
+  "version": "1.0.0",
+  "description": "Auto commit and push when files change",
+  "main": "watcher.js",
+  "scripts": {
+    "watch": "node watcher.mjs"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  }
+}
